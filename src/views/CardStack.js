@@ -211,7 +211,7 @@ class CardStack extends Component<DefaultProps, Props, void> {
       },
       renderRightComponent: (props: NavigationTransitionProps) => {
         const header = this.props.router.getScreenConfig(props.navigation, 'header') || {};
-        return header.left;
+        return header.right;
       },
       renderTitleComponent: (props: NavigationTransitionProps) => {
         const header = this.props.router.getScreenConfig(props.navigation, 'header') || {};
