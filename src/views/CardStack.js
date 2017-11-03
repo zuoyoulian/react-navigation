@@ -6,6 +6,7 @@ import {
   NativeModules,
   Platform,
   View,
+  ViewPropTypes,
 } from 'react-native';
 
 import Transitioner from './Transitioner';
@@ -128,7 +129,7 @@ class CardStack extends Component<DefaultProps, Props, void> {
     /**
      * Custom style applied to the cards stack.
      */
-    style: View.propTypes.style,
+    style: ViewPropTypes.style,
   };
 
   static defaultProps: DefaultProps = {

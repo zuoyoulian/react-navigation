@@ -5,6 +5,7 @@ import {
   View,
   Text,
   StyleSheet,
+  ViewPropTypes,
 } from 'react-native';
 
 import TouchableItem from '../TouchableItem';
@@ -90,7 +91,7 @@ DrawerNavigatorItems.propTypes = {
   activeBackgroundColor: PropTypes.string,
   inactiveTintColor: PropTypes.string,
   inactiveBackgroundColor: PropTypes.string,
-  style: View.propTypes.style,
+  style: ViewPropTypes.style,
 };
 
 /* Material design specs - https://material.io/guidelines/patterns/navigation-drawer.html#navigation-drawer-specs */
