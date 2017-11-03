@@ -15,6 +15,7 @@ import {
   TouchableNativeFeedback,
   TouchableOpacity,
   View,
+  ViewPropTypes,
 } from 'react-native';
 import type {
   Style,
@@ -44,7 +45,7 @@ export default class TouchableItem extends Component<DefaultProps, Props, void> 
     pressColor: PropTypes.string,
     activeOpacity: PropTypes.number,
     children: PropTypes.node.isRequired,
-    style: View.propTypes.style,
+    style: ViewPropTypes.style,
   };
 
   static defaultProps = {
